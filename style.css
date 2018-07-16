@@ -96,17 +96,23 @@ li {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 0px;
+    height: 500px;
     background-color: #000000;
   }
   .carousel-item > img {
     position: absolute;
-    top: -160px;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     opacity: 0.7;
 
+  }
+
+  @media (min-width: 768px) {
+    .carousel-item > img {
+        top: -160px;
+    }
   }
   
   
@@ -147,7 +153,7 @@ li {
   .featurette-heading {
     font-weight: 300;
     line-height: 1;
-    letter-spacing: -.05rem;
+    margin-bottom: 1rem;
   }
   
   .user-task {
