@@ -160,6 +160,13 @@ li {
       margin: 2rem 0px 2rem 0px;
   }
   
+  /* Development Section
+  -------------------------------------------------- */
+
+  .development-logo {
+      width: 100%;
+  }
+
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
